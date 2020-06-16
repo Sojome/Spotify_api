@@ -13,3 +13,4 @@ services:
       - "444:444"
     volumes:
       - .:/home/node/app
+    network_mode: bridge
