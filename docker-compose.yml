@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: api-proyecto
-    container_name: node
+    container_name: api
     restart: unless-stopped
     ports:
       - "81:81"
