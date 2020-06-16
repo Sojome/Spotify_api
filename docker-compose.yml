@@ -10,5 +10,6 @@ services:
     restart: unless-stopped
     ports:
       - "81:81"
+      - "444:444"
     volumes:
       - .:/home/node/app
